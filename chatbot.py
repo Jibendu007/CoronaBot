@@ -4,7 +4,7 @@ from chatterbot.trainers import ChatterBotCorpusTrainer
 
 # Creating ChatBot Instance
 chatbot = ChatBot(
-    'Django-Bot',
+    'Bot',
     storage_adapter='chatterbot.storage.SQLStorageAdapter',
     logic_adapters=[
         'chatterbot.logic.MathematicalEvaluation',
